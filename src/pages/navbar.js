@@ -6,7 +6,7 @@ function Navbar() {
   return (
       <>
       <header>
-        <h1><a href="/" style={{color: "black"}}>Angel's Portfolio</a></h1>
+        <h1><Link href="/" style={{color: "black"}}>Angel's Portfolio</Link></h1>
         <nav>
             <ul>
                 <li><Link class="nav-deco" to="/">Home</Link></li>
