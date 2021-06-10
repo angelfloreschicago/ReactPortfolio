@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./style.css";
 
 function Navbar() {
@@ -8,10 +9,10 @@ function Navbar() {
         <h1><a href="/" style={{color: "black"}}>Angel's Portfolio</a></h1>
         <nav>
             <ul>
-                <li><a class="nav-deco" href="/">Home</a></li>
-                <li><a class="nav-deco" href="/projects">Projects</a></li>
-                <li><a class="nav-deco" href="/resume">Resume</a></li>
-                <li><a class="nav-deco" href="/contact">Contact</a></li>
+                <li><Link class="nav-deco" to="/">Home</Link></li>
+                <li><Link class="nav-deco" to="/projects">Projects</Link></li>
+                <li><Link class="nav-deco" to="/resume">Resume</Link></li>
+                <li><Link class="nav-deco" to="/contact">Contact</Link></li>
             </ul>
         </nav>
     </header>
